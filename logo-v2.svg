@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 82"
+     role="img" aria-label="Sourav Bhattacharya Photography">
+  <title>Sourav Bhattacharya Photography</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300;1,400&amp;display=swap');
+      svg { color: #eae6df; }
+      .n  { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+            font-style: italic; font-weight: 300;
+            font-size: 36px; letter-spacing: 3px;
+            fill: currentColor; }
+      .sub { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+             font-style: normal; font-weight: 400;
+             font-size: 8.5px; letter-spacing: 5.5px;
+             fill: #c4a05a; }
+      .r  { stroke: #2e2e2b; stroke-width: 1; }
+      .ra { stroke: #c4a05a; stroke-width: 0.8; opacity: 0.5; }
+    </style>
+  </defs>
+
+  <!-- ── TOP RULE ── -->
+  <line x1="30"  y1="10" x2="180" y2="10" class="r"/>
+  <line x1="200" y1="10" x2="350" y2="10" class="ra"/>
+
+  <!-- ── NAME (italic Cormorant, centered) ── -->
+  <text x="190" y="50" class="n" text-anchor="middle">Sourav Bhattacharya</text>
+
+  <!-- ── BOTTOM RULE ── -->
+  <line x1="30"  y1="60" x2="180" y2="60" class="ra"/>
+  <line x1="200" y1="60" x2="350" y2="60" class="r"/>
+
+  <!-- ── SUBLINE ── -->
+  <text x="190" y="76" class="sub" text-anchor="middle">PHOTOGRAPHY</text>
+
+</svg>

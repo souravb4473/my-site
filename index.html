@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sourav Bhattacharya Photography — Travel, portraits, weddings & food photography. Based in Troy, MI.">
+  <title>Sourav Bhattacharya Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <nav id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Sourav Bhattacharya Photography — Home">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 80"
+             width="152" height="32"
+             aria-hidden="true" focusable="false">
+          <!-- Mark -->
+          <circle cx="40" cy="40" r="27" fill="none" stroke="#c4a05a" stroke-width="1.4"/>
+          <polyline points="24,31 24,24 31,24" fill="none" stroke="#c4a05a" stroke-width="1.4" stroke-linecap="butt"/>
+          <polyline points="49,24 56,24 56,31" fill="none" stroke="#c4a05a" stroke-width="1.4" stroke-linecap="butt"/>
+          <polyline points="24,49 24,56 31,56" fill="none" stroke="#c4a05a" stroke-width="1.4" stroke-linecap="butt"/>
+          <polyline points="49,56 56,56 56,49" fill="none" stroke="#c4a05a" stroke-width="1.4" stroke-linecap="butt"/>
+          <circle cx="40" cy="40" r="1.5" fill="#c4a05a"/>
+          <!-- Divider -->
+          <line x1="88" y1="24" x2="88" y2="56" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+          <!-- Wordmark — fill inherits currentColor from parent <a> -->
+          <text x="100" y="36"
+                font-family="'Inter', system-ui, sans-serif"
+                font-weight="300" font-size="10.5" letter-spacing="2.4"
+                fill="currentColor">SOURAV BHATTACHARYA</text>
+          <text x="100" y="52"
+                font-family="'Inter', system-ui, sans-serif"
+                font-weight="400" font-size="7" letter-spacing="3"
+                fill="#c4a05a">PHOTOGRAPHY</text>
+        </svg>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Work</a></li>
+        <li><a href="#testimonials" class="nav-link">Clients</a></li>
+        <li><a href="#contact" class="nav-link nav-link-cta">Get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <!-- Replace .hero-bg background-image with your own hero photograph -->
+  <section id="hero" aria-label="Hero">
+    <div class="hero-bg" role="img" aria-label="Photography background"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Sourav Bhattacharya &nbsp;·&nbsp; Photography</p>
+      <h1 class="hero-headline">
+        I didn't pick up a camera<br>
+        <em>to start a business.</em>
+      </h1>
+      <p class="hero-sub">
+        I picked it up because I couldn't stop<br class="break-md"> seeing things worth keeping.
+      </p>
+      <p class="hero-body">
+        Travel. Motorcycles. New cities, new kitchens, new light.<br>
+        Sixteen years moving across three continents taught me one thing&nbsp;—<br class="break-lg">
+        the best frames don't wait.
+      </p>
+      <a href="#services" class="btn-primary">See the work</a>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span class="hero-scroll-label">Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section" aria-label="About">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">About</p>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="about-heading">Why I shoot.</h2>
+          <div class="about-rule" aria-hidden="true"></div>
+        </div>
+        <div class="about-right">
+          <p>I've spent my career in boardrooms and airports&nbsp;— Detroit, Mumbai, Singapore, London. You move that much, you either stop noticing the world or you start paying attention to it differently.</p>
+          <p>I chose the second one.</p>
+          <p>The camera came later. But the eye was always there.</p>
+          <p>What I shoot is shaped by everything I've chased outside of work:</p>
+          <ul class="about-list">
+            <li>Roads on a motorcycle, where you notice things at 60&nbsp;mph that a car never shows you</li>
+            <li>Meals in cities where I didn't speak the language but understood the plate</li>
+            <li>Moments in places I knew I wouldn't return to</li>
+          </ul>
+          <p>That's what I bring to every shoot. Not a formula. An eye trained by genuine curiosity.</p>
+          <p class="about-location">Based in Troy,&nbsp;MI. I shoot locally and travel for the right work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section id="services" class="section section-surface" aria-label="Services">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">Services</p>
+      <h2 class="section-heading">What I shoot.</h2>
+      <div class="services-grid">
+
+        <article class="service-card" tabindex="0">
+          <div class="service-number" aria-hidden="true">01</div>
+          <div class="service-body">
+            <h3 class="service-title">Travel &amp; Destination Photography</h3>
+            <p>You're going somewhere that matters. The trip deserves more than a phone camera. I travel for destination shoots&nbsp;— weddings, elopements, personal projects, brand work. Three continents of experience. Zero checklist photography.</p>
+          </div>
+          <div class="service-arrow" aria-hidden="true">→</div>
+        </article>
+
+        <article class="service-card" tabindex="0">
+          <div class="service-number" aria-hidden="true">02</div>
+          <div class="service-body">
+            <h3 class="service-title">Portraits — Personal &amp; Professional</h3>
+            <p>Most portrait sessions feel like a transaction. Mine don't. Whether it's a LinkedIn headshot or a personal portrait series, I work until the frame looks like you&nbsp;— not like a pose. Corporate background means I understand your time. One session, done right.</p>
+          </div>
+          <div class="service-arrow" aria-hidden="true">→</div>
+        </article>
+
+        <article class="service-card" tabindex="0">
+          <div class="service-number" aria-hidden="true">03</div>
+          <div class="service-body">
+            <h3 class="service-title">Weddings &amp; Celebrations</h3>
+            <p>I don't document weddings. I pay attention to them. The detail your florist obsessed over. The look before the walk. The table at the reception nobody photographed. That's the work I care about.</p>
+          </div>
+          <div class="service-arrow" aria-hidden="true">→</div>
+        </article>
+
+        <article class="service-card" tabindex="0">
+          <div class="service-number" aria-hidden="true">04</div>
+          <div class="service-body">
+            <h3 class="service-title">Food &amp; Culinary Photography</h3>
+            <p>I've eaten my way across four continents. I know what good food looks like before the camera comes out. For restaurants, chefs, and food brands who want images that actually make people hungry.</p>
+          </div>
+          <div class="service-arrow" aria-hidden="true">→</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section id="testimonials" class="section" aria-label="Testimonials">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">Testimonials</p>
+      <h2 class="section-heading">What clients say.</h2>
+      <div class="testimonials-grid">
+
+        <blockquote class="testimonial-card">
+          <div class="testimonial-mark" aria-hidden="true">&ldquo;</div>
+          <p class="testimonial-text">[Testimonial placeholder — couple, destination wedding shoot]</p>
+          <footer class="testimonial-author">
+            <cite class="author-name">[Name]</cite>
+            <span class="author-context">[City]</span>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial-card">
+          <div class="testimonial-mark" aria-hidden="true">&ldquo;</div>
+          <p class="testimonial-text">[Testimonial placeholder — corporate portrait client]</p>
+          <footer class="testimonial-author">
+            <cite class="author-name">[Name]</cite>
+            <span class="author-context">[Title, Company]</span>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial-card">
+          <div class="testimonial-mark" aria-hidden="true">&ldquo;</div>
+          <p class="testimonial-text">[Testimonial placeholder — restaurant or food brand client]</p>
+          <footer class="testimonial-author">
+            <cite class="author-name">[Name]</cite>
+            <span class="author-context">[Restaurant / Brand]</span>
+          </footer>
+        </blockquote>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section id="cta-section" class="section section-cta" aria-label="Call to action">
+    <div class="container container-narrow">
+      <div class="cta-inner">
+        <h2 class="cta-heading">Let's talk about<br><em>your shoot.</em></h2>
+        <p class="cta-body">Tell me what you're working on. I'll tell you honestly if I'm the right fit.<br>No pitch. No package deck. Just a conversation.</p>
+        <a href="#contact" class="btn-primary btn-outline">Get in touch</a>
+        <p class="cta-sub">Response within 24 hours. Always.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section section-surface" aria-label="Contact">
+    <div class="container container-narrow">
+      <p class="section-label" aria-hidden="true">Contact</p>
+      <h2 class="section-heading">Reach out.</h2>
+      <p class="contact-intro">Based in Troy, MI. Available for local shoots and travel assignments.</p>
+      <a href="mailto:sourav.bhattacharya02@gmail.com" class="contact-email">sourav.bhattacharya02@gmail.com</a>
+
+      <form id="contact-form" class="contact-form" novalidate aria-label="Contact form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" required aria-required="true">
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="your@email.com" required aria-required="true">
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Tell me about your shoot</label>
+          <textarea id="message" name="message" rows="5" placeholder="What are you working on? Where, when, what kind of shoot?" required aria-required="true"></textarea>
+          <span class="field-error" aria-live="polite"></span>
+        </div>
+        <button type="submit" class="btn-primary" id="form-submit">Send it over</button>
+        <div id="form-success" class="form-success" role="alert" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-name">Sourav Bhattacharya Photography</p>
+        <p class="footer-location">Troy, MI</p>
+        <p class="footer-copy">&copy; <span id="year"></span> Sourav Bhattacharya. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== WIDGET AREA ===================== -->
+  <div id="widget-area" aria-label="Chat widgets">
+
+    <!-- Launcher: two stacked buttons (shown when no panel is open) -->
+    <div id="widget-launcher">
+      <button id="chat-bubble" aria-label="Open Q&amp;A chat" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M2 3.5A1.5 1.5 0 013.5 2h13A1.5 1.5 0 0118 3.5v9A1.5 1.5 0 0116.5 14H11l-4 4v-4H3.5A1.5 1.5 0 012 12.5v-9z"
+                stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+        <span class="chat-bubble-label">Ask me anything</span>
+      </button>
+      <button id="proposal-bubble" aria-label="Get a proposal" aria-expanded="false">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <rect x="3" y="2" width="14" height="16" rx="1.5" stroke="currentColor" stroke-width="1.4"/>
+          <line x1="6.5" y1="7"  x2="13.5" y2="7"  stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="6.5" y1="10" x2="13.5" y2="10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="6.5" y1="13" x2="10"   y2="13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <span class="chat-bubble-label">Get Proposal</span>
+      </button>
+    </div>
+
+    <!-- Q&A Panel -->
+    <div id="chat-panel" role="dialog" aria-label="Q&amp;A Chat" aria-modal="false" style="display:none">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar" aria-hidden="true">SB</div>
+          <div>
+            <p class="chat-name">Sourav's Assistant</p>
+            <p class="chat-status">Ask about services, approach, or booking</p>
+          </div>
+        </div>
+        <button id="chat-close" aria-label="Close chat">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <line x1="1" y1="1" x2="13" y2="13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="13" y1="1" x2="1" y2="13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <div id="chat-messages" class="chat-messages" aria-live="polite" aria-atomic="false"></div>
+      <form id="chat-form" class="chat-input-row" autocomplete="off">
+        <input type="text" id="chat-input" class="chat-input" placeholder="Type a message…"
+               aria-label="Chat message" maxlength="500" autocomplete="off">
+        <button type="submit" id="chat-send" class="chat-send" aria-label="Send message">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M14 8L2 2l3 6-3 6 12-6z" stroke="currentColor" stroke-width="1.4"
+                  stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </form>
+    </div>
+
+    <!-- Proposal Panel -->
+    <div id="proposal-panel" role="dialog" aria-label="Get a Proposal" aria-modal="false" style="display:none">
+      <div class="chat-header proposal-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar proposal-avatar" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <rect x="3" y="2" width="14" height="16" rx="1.5" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="6.5" y1="7"  x2="13.5" y2="7"  stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              <line x1="6.5" y1="10" x2="13.5" y2="10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              <line x1="6.5" y1="13" x2="10"   y2="13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <p class="chat-name">Get a Proposal</p>
+            <p class="chat-status">A quick conversation — not a form</p>
+          </div>
+        </div>
+        <button id="proposal-close" aria-label="Close proposal">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <line x1="1" y1="1" x2="13" y2="13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="13" y1="1" x2="1" y2="13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <div class="proposal-progress" id="proposal-progress" aria-label="Step 1 of 6">
+        <div class="proposal-progress-track">
+          <div id="proposal-progress-fill" class="proposal-progress-fill" style="width:0%"></div>
+        </div>
+        <span id="proposal-progress-label" class="proposal-progress-label">Step 1 of 6</span>
+      </div>
+      <div id="proposal-messages" class="chat-messages" aria-live="polite" aria-atomic="false"></div>
+      <form id="proposal-form" class="chat-input-row" autocomplete="off">
+        <input type="text" id="proposal-input" class="chat-input" placeholder="Type your answer…"
+               aria-label="Your answer" maxlength="500" autocomplete="off">
+        <button type="submit" id="proposal-send" class="chat-send" aria-label="Send answer">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M14 8L2 2l3 6-3 6 12-6z" stroke="currentColor" stroke-width="1.4"
+                  stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- ===================== JS ===================== -->
+  <script>
+    // ── Year ──────────────────────────────────────────
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ── Nav: transparent → solid on scroll ────────────
+    const nav = document.getElementById('nav');
+    const onScroll = () => {
+      nav.classList.toggle('nav-scrolled', window.scrollY > 60);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // ── Nav: mobile toggle ─────────────────────────────
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks  = document.getElementById('nav-links');
+    navToggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('nav-open');
+      navToggle.classList.toggle('nav-toggle-open', open);
+      navToggle.setAttribute('aria-expanded', open);
+    });
+
+    // Close mobile nav on link click
+    navLinks.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('nav-open');
+        navToggle.classList.remove('nav-toggle-open');
+        navToggle.setAttribute('aria-expanded', false);
+      });
+    });
+
+    // ── Smooth scroll ─────────────────────────────────
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', e => {
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (!target) return;
+        e.preventDefault();
+        const offset = nav.offsetHeight + 16;
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      });
+    });
+
+    // ── Scroll-in animations ──────────────────────────
+    const fadeEls = document.querySelectorAll(
+      '.section-label, .about-heading, .about-right > p, .about-right > ul, ' +
+      '.section-heading, .service-card, .testimonial-card, ' +
+      '.cta-heading, .cta-body, .btn-primary, .cta-sub, ' +
+      '.contact-intro, .contact-email, .form-group, #form-submit'
+    );
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    fadeEls.forEach((el, i) => {
+      el.classList.add('fade-up');
+      // Stagger service cards and testimonials
+      if (el.classList.contains('service-card') || el.classList.contains('testimonial-card')) {
+        const siblings = el.parentElement.querySelectorAll('.service-card, .testimonial-card');
+        const idx = Array.from(siblings).indexOf(el);
+        el.style.transitionDelay = `${idx * 80}ms`;
+      }
+      observer.observe(el);
+    });
+
+    // ── Contact form ──────────────────────────────────
+    const form    = document.getElementById('contact-form');
+    const success = document.getElementById('form-success');
+    const submit  = document.getElementById('form-submit');
+
+    const validateField = (input) => {
+      const error = input.parentElement.querySelector('.field-error');
+      if (!error) return true;
+      if (!input.value.trim()) {
+        error.textContent = 'This field is required.';
+        input.setAttribute('aria-invalid', 'true');
+        return false;
+      }
+      if (input.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value)) {
+        error.textContent = 'Please enter a valid email address.';
+        input.setAttribute('aria-invalid', 'true');
+        return false;
+      }
+      error.textContent = '';
+      input.removeAttribute('aria-invalid');
+      return true;
+    };
+
+    form.querySelectorAll('input, textarea').forEach(field => {
+      field.addEventListener('blur', () => validateField(field));
+    });
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const fields  = Array.from(form.querySelectorAll('input[required], textarea[required]'));
+      const allValid = fields.every(validateField);
+      if (!allValid) return;
+
+      // Simulate send (replace with actual form endpoint)
+      submit.disabled = true;
+      submit.textContent = 'Sending…';
+
+      setTimeout(() => {
+        form.reset();
+        submit.disabled = false;
+        submit.textContent = 'Send it over';
+        success.textContent = "Got it. I'll be in touch within 24 hours.";
+        success.classList.add('visible');
+        setTimeout(() => {
+          success.classList.remove('visible');
+          success.textContent = '';
+        }, 6000);
+      }, 1200);
+    });
+  </script>
+
+  <!-- ===================== WIDGET JS ===================== -->
+  <script>
+    (function () {
+
+      // ── Element refs ────────────────────────────────────────────
+      const launcher       = document.getElementById('widget-launcher');
+      const chatBubble     = document.getElementById('chat-bubble');
+      const proposalBubble = document.getElementById('proposal-bubble');
+
+      const chatPanel    = document.getElementById('chat-panel');
+      const chatClose    = document.getElementById('chat-close');
+      const chatForm     = document.getElementById('chat-form');
+      const chatInput    = document.getElementById('chat-input');
+      const chatSend     = document.getElementById('chat-send');
+      const chatMessages = document.getElementById('chat-messages');
+
+      const proposalPanel    = document.getElementById('proposal-panel');
+      const proposalClose    = document.getElementById('proposal-close');
+      const proposalForm     = document.getElementById('proposal-form');
+      const proposalInput    = document.getElementById('proposal-input');
+      const proposalSend     = document.getElementById('proposal-send');
+      const proposalMessages = document.getElementById('proposal-messages');
+      const progressFill     = document.getElementById('proposal-progress-fill');
+      const progressLabel    = document.getElementById('proposal-progress-label');
+      const progressBar      = document.getElementById('proposal-progress');
+
+      // ── State ───────────────────────────────────────────────────
+      const chatHistory     = [];
+      const proposalHistory = [];
+      let proposalStarted   = false;
+
+      // ── Shared helpers ──────────────────────────────────────────
+      function appendTo(container, role, text) {
+        const wrap = document.createElement('div');
+        wrap.className = 'chat-msg chat-msg-' + role;
+        const bub = document.createElement('div');
+        bub.className = 'chat-bubble';
+        bub.textContent = text;
+        wrap.appendChild(bub);
+        container.appendChild(wrap);
+        scrollBottom(container);
+      }
+
+      function showTypingIn(container, id) {
+        const wrap = document.createElement('div');
+        wrap.className = 'chat-msg chat-msg-assistant';
+        wrap.id = id;
+        const bub = document.createElement('div');
+        bub.className = 'chat-bubble chat-typing-indicator';
+        bub.setAttribute('aria-label', 'Typing');
+        bub.innerHTML = '<span></span><span></span><span></span>';
+        wrap.appendChild(bub);
+        container.appendChild(wrap);
+        scrollBottom(container);
+      }
+
+      function hideTyping(id) {
+        const el = document.getElementById(id);
+        if (el) el.remove();
+      }
+
+      function scrollBottom(container) {
+        container.scrollTop = container.scrollHeight;
+      }
+
+      // ── Launcher ────────────────────────────────────────────────
+      function showLauncher() {
+        chatPanel.style.display     = 'none';
+        proposalPanel.style.display = 'none';
+        launcher.style.display      = '';
+        chatBubble.setAttribute('aria-expanded', 'false');
+        proposalBubble.setAttribute('aria-expanded', 'false');
+      }
+
+      function hideLauncher() {
+        launcher.style.display = 'none';
+      }
+
+      // ── Q&A Widget ──────────────────────────────────────────────
+      function openChat() {
+        hideLauncher();
+        chatPanel.style.display = 'flex';
+        chatBubble.setAttribute('aria-expanded', 'true');
+        if (chatHistory.length === 0) {
+          appendTo(chatMessages, 'assistant',
+            "Hi! I'm here to answer questions about Sourav's photography work — services, approach, booking. What would you like to know?");
+        }
+        scrollBottom(chatMessages);
+        chatInput.focus();
+      }
+
+      function closeChat() { showLauncher(); }
+
+      chatBubble.addEventListener('click', openChat);
+      chatClose.addEventListener('click', closeChat);
+      chatPanel.addEventListener('keydown', e => { if (e.key === 'Escape') closeChat(); });
+
+      async function sendChatMessage() {
+        const text = chatInput.value.trim();
+        if (!text) return;
+
+        chatInput.value = '';
+        chatInput.disabled = true;
+        chatSend.disabled  = true;
+
+        appendTo(chatMessages, 'user', text);
+        chatHistory.push({ role: 'user', content: text });
+        showTypingIn(chatMessages, 'chat-typing');
+
+        try {
+          const res = await fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ messages: chatHistory })
+          });
+          hideTyping('chat-typing');
+          if (!res.ok) throw new Error('API error ' + res.status);
+          const data  = await res.json();
+          const reply = data.reply || "I'd suggest reaching out directly — sourav.bhattacharya02@gmail.com";
+          chatHistory.push({ role: 'assistant', content: reply });
+          appendTo(chatMessages, 'assistant', reply);
+        } catch (err) {
+          hideTyping('chat-typing');
+          appendTo(chatMessages, 'assistant',
+            "Something went wrong. Please reach out directly — sourav.bhattacharya02@gmail.com");
+          console.error('Chat error:', err);
+        } finally {
+          chatInput.disabled = false;
+          chatSend.disabled  = false;
+          chatInput.focus();
+        }
+      }
+
+      chatForm.addEventListener('submit', e => { e.preventDefault(); sendChatMessage(); });
+
+      // ── Proposal Widget ─────────────────────────────────────────
+      function updateProgress(step) {
+        const pct = Math.round((step / 6) * 100);
+        progressFill.style.width = pct + '%';
+        progressLabel.textContent = 'Step ' + step + ' of 6';
+        progressBar.setAttribute('aria-label', 'Step ' + step + ' of 6');
+      }
+
+      async function startProposal() {
+        proposalStarted = true;
+        proposalInput.disabled = true;
+        proposalSend.disabled  = true;
+
+        proposalHistory.push({ role: 'user', content: "I'd like to get a proposal." });
+
+        try {
+          showTypingIn(proposalMessages, 'proposal-typing');
+          const res = await fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ messages: proposalHistory })
+          });
+          hideTyping('proposal-typing');
+          if (!res.ok) throw new Error('API error ' + res.status);
+          const data  = await res.json();
+          const reply = data.reply || '';
+          proposalHistory.push({ role: 'assistant', content: reply });
+          appendTo(proposalMessages, 'assistant', reply);
+          if (data.intake_step) updateProgress(data.intake_step);
+        } catch (err) {
+          hideTyping('proposal-typing');
+          appendTo(proposalMessages, 'assistant',
+            "Something went wrong. Please reach out at sourav.bhattacharya02@gmail.com");
+          console.error('Proposal start error:', err);
+        } finally {
+          proposalInput.disabled = false;
+          proposalSend.disabled  = false;
+          proposalInput.focus();
+        }
+      }
+
+      function openProposal() {
+        hideLauncher();
+        proposalPanel.style.display = 'flex';
+        proposalBubble.setAttribute('aria-expanded', 'true');
+        if (!proposalStarted) {
+          startProposal();
+        } else {
+          scrollBottom(proposalMessages);
+          if (!proposalInput.disabled) proposalInput.focus();
+        }
+      }
+
+      function closeProposal() { showLauncher(); }
+
+      proposalBubble.addEventListener('click', openProposal);
+      proposalClose.addEventListener('click', closeProposal);
+      proposalPanel.addEventListener('keydown', e => { if (e.key === 'Escape') closeProposal(); });
+
+      async function sendProposalMessage() {
+        const text = proposalInput.value.trim();
+        if (!text) return;
+
+        proposalInput.value = '';
+        proposalInput.disabled = true;
+        proposalSend.disabled  = true;
+
+        appendTo(proposalMessages, 'user', text);
+        proposalHistory.push({ role: 'user', content: text });
+        showTypingIn(proposalMessages, 'proposal-typing');
+
+        let intakeComplete = false;
+
+        try {
+          const res = await fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ messages: proposalHistory })
+          });
+          hideTyping('proposal-typing');
+          if (!res.ok) throw new Error('API error ' + res.status);
+          const data  = await res.json();
+          const reply = data.reply || '';
+          proposalHistory.push({ role: 'assistant', content: reply });
+          appendTo(proposalMessages, 'assistant', reply);
+
+          if (data.intake_step) updateProgress(data.intake_step);
+
+          if (data.intake_complete) {
+            intakeComplete = true;
+            proposalInput.placeholder = 'Proposal submitted.';
+            // Fire off to generate-proposal stub (fire and forget)
+            fetch('/api/generate-proposal', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                intakeData: data.intake_data,
+                conversation: proposalHistory
+              })
+            }).catch(err => console.error('Generate proposal error:', err));
+          }
+        } catch (err) {
+          hideTyping('proposal-typing');
+          appendTo(proposalMessages, 'assistant',
+            "Something went wrong. Please reach out at sourav.bhattacharya02@gmail.com");
+          console.error('Proposal send error:', err);
+        } finally {
+          if (!intakeComplete) {
+            proposalInput.disabled = false;
+            proposalSend.disabled  = false;
+            proposalInput.focus();
+          }
+          // If complete, inputs stay disabled — conversation is over
+        }
+      }
+
+      proposalForm.addEventListener('submit', e => { e.preventDefault(); sendProposalMessage(); });
+
+    })();
+  </script>
+
+</body>
+</html>
