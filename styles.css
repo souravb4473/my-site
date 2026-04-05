@@ -6,21 +6,21 @@
 /* ── 1. Design Tokens ──────────────────────────────────────── */
 :root {
   /* Palette */
-  --bg:           #0b0b0a;
-  --bg-surface:   #141412;
-  --bg-elevated:  #1c1c1a;
-  --bg-cta:       #100f0d;
+  --bg:           #f7f5f2;
+  --bg-surface:   #edeae4;
+  --bg-elevated:  #e4e0d8;
+  --bg-cta:       #f0ece6;
 
-  --text-primary:   #eae6df;
-  --text-secondary: #908c85;
-  --text-muted:     #4e4c48;
+  --text-primary:   #1a1814;
+  --text-secondary: #5a5650;
+  --text-muted:     #9a9690;
 
-  --accent:       #c4a05a;
-  --accent-dim:   rgba(196, 160, 90, 0.15);
-  --accent-hover: #d4b270;
+  --accent:       #8a6a2a;
+  --accent-dim:   rgba(138, 106, 42, 0.12);
+  --accent-hover: #6e5220;
 
-  --border:       #232320;
-  --border-hover: #3a3a36;
+  --border:       #d8d4cc;
+  --border-hover: #b8b4aa;
 
   /* Typography */
   --font-serif:  'Cormorant Garamond', Georgia, serif;
@@ -91,7 +91,7 @@ button {
 
 ::selection {
   background: var(--accent);
-  color: var(--bg);
+  color: #f7f5f2;
 }
 
 /* ── 3. Typography ─────────────────────────────────────────── */
@@ -193,8 +193,8 @@ em { font-style: italic; }
 
 .btn-outline {
   background-color: transparent;
-  color: var(--text-primary);
-  border-color: var(--border-hover);
+  color: #eae6df;
+  border-color: rgba(234, 230, 223, 0.5);
 }
 
 .btn-outline:hover,
@@ -262,7 +262,7 @@ em { font-style: italic; }
   font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-secondary);
+  color: #ffffff;
   position: relative;
   transition: color var(--duration) var(--ease);
 }
@@ -284,8 +284,8 @@ em { font-style: italic; }
 
 .nav-link-cta {
   padding: 0.5rem 1.125rem;
-  border: 1px solid var(--border-hover);
-  color: var(--text-primary);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
   transition: border-color var(--duration) var(--ease),
               color        var(--duration) var(--ease),
               background   var(--duration) var(--ease);
@@ -347,9 +347,9 @@ em { font-style: italic; }
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 80% at 70% 40%, rgba(28, 22, 10, 0.7) 0%, transparent 65%),
-    radial-gradient(ellipse 60% 60% at 20% 80%, rgba(18, 14, 5, 0.5) 0%, transparent 55%),
-    linear-gradient(150deg, #0f0e0b 0%, #1c1810 35%, #0b0b0a 100%);
+    radial-gradient(ellipse 80% 80% at 70% 40%, rgba(80, 60, 20, 0.3) 0%, transparent 65%),
+    radial-gradient(ellipse 60% 60% at 20% 80%, rgba(60, 45, 15, 0.2) 0%, transparent 55%),
+    linear-gradient(150deg, #3a3528 0%, #4a4232 35%, #2e2a1e 100%);
   background-size: cover;
   background-position: center;
 }
@@ -359,9 +359,9 @@ em { font-style: italic; }
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(11, 11, 10, 0.3) 0%,
-    rgba(11, 11, 10, 0.1) 40%,
-    rgba(11, 11, 10, 0.6) 100%
+    rgba(11, 11, 10, 0.1) 0%,
+    rgba(11, 11, 10, 0.0) 40%,
+    rgba(11, 11, 10, 0.2) 100%
   );
 }
 
@@ -380,14 +380,14 @@ em { font-style: italic; }
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: #c4a05a;
   margin-bottom: var(--space-lg);
   opacity: 0;
   animation: heroFadeUp 0.8s var(--ease-out) 0.2s forwards;
 }
 
 .hero-headline {
-  color: var(--text-primary);
+  color: #eae6df;
   margin-bottom: var(--space-lg);
   line-height: 1.1;
   opacity: 0;
@@ -395,7 +395,7 @@ em { font-style: italic; }
 }
 
 .hero-headline em {
-  color: var(--accent);
+  color: #c4a05a;
   font-style: italic;
 }
 
@@ -403,7 +403,7 @@ em { font-style: italic; }
   font-family: var(--font-serif);
   font-size: clamp(1.2rem, 2.2vw, 1.6rem);
   font-weight: 300;
-  color: var(--text-primary);
+  color: #eae6df;
   margin-bottom: var(--space-md);
   opacity: 0;
   animation: heroFadeUp 0.9s var(--ease-out) 0.55s forwards;
@@ -411,7 +411,7 @@ em { font-style: italic; }
 
 .hero-body {
   font-size: 0.9375rem;
-  color: var(--text-secondary);
+  color: #a8a49c;
   line-height: 1.8;
   margin-bottom: var(--space-xl);
   opacity: 0;
@@ -440,13 +440,13 @@ em { font-style: italic; }
   font-size: 0.625rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: #6b6860;
 }
 
 .hero-scroll-line {
   width: 1px;
   height: 40px;
-  background: linear-gradient(to bottom, var(--text-muted), transparent);
+  background: linear-gradient(to bottom, #6b6860, transparent);
   animation: scrollPulse 2.5s ease-in-out infinite;
 }
 
